@@ -49,7 +49,7 @@ void CONFIG_SW2()  {
 
 
 // SW3 - Connected to RC15
-void CONFIG_SW2()  {
+void CONFIG_SW3()  {
   CONFIG_RC15_AS_DIG_INPUT();
   ENABLE_RC15_PULLUP();
   // Give the pullup some time to take effect.
